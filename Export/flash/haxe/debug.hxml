@@ -1,0 +1,22 @@
+-main ApplicationMain 
+--macro openfl._internal.utils.ExtraParams.include()
+-cp C:/HaxeToolkit/haxe/lib/openfl/6,3,0
+-D openfl=6.3.0
+--macro lime.Lib.extraParams()
+-cp F:/OpenFl/lime
+-D lime=5.8.0
+-cp src
+-cp C:\HaxeToolkit\haxe\lib\openfl/6,3,0/externs/core/flash
+-cp C:\HaxeToolkit\haxe\lib\openfl/6,3,0/externs/core/openfl
+-D native-trace
+-D tools=5.8.0
+-D flash-use-stage
+-D no-compilation
+-D openfl-flash
+-D web
+-cp Export/flash
+-swf-lib obj/assets.swf
+-swf-version 17
+-swf Export/flash/bin/WflexCore.swf
+-cp Export/flash/haxe
+-debug

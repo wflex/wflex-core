@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="WflexCore" package="com.sample.wflexcore" version="1.0.0" company="WFlex" />
+	<app file="Main" main="TestMain" path="build" swf-version="12.0" />
+	
+	<source path="src" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" />
+	
+</project>
