@@ -1,3 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 /.idea/
 /wflex-core.iml
+/build/
+/Export/
+/test/build/
+/test/Export/
